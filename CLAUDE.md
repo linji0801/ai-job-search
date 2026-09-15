@@ -87,8 +87,10 @@ _Not yet completed - no formal assessment or LinkedIn "About"/recommendation tex
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- Big Tech: Amazon, Airbnb, Netflix
+- Big Tech: Amazon, Airbnb, Netflix, Google, Dropbox, Pinterest, Stripe, Zillow
 - AI-native companies: Anthropic, OpenAI, Nvidia
+- Fintech/consumer platforms: Coinbase, Instacart, Hubspot, Circle
+- Quant/trading firms: Capital Group, The Voleon Group, Two Sigma, Citadel, Jane Street
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and

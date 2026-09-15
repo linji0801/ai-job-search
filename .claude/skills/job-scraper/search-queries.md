@@ -29,6 +29,20 @@ Companies to specifically monitor for openings, in addition to the general searc
 - Anthropic
 - OpenAI
 - Nvidia
+- Coinbase
+- Instacart
+- Hubspot
+- Dropbox
+- Pinterest
+- Circle
+- Google
+- Capital Group
+- The Voleon Group
+- Two Sigma
+- Citadel
+- Jane Street
+- Stripe
+- Zillow
 
 ## Query Categories
 
