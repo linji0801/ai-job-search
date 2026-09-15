@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Backend architecture, distributed systems, AWS/cloud infrastructure, GenAI/LLM integration, data pipelines and big data (Spark, Kinesis, data lakes), Python, Java
+**Moderate match areas:** TypeScript, Go, C#/C++/C, GraphQL, Sagemaker/ML tooling
+**Weak match areas:** Frontend / full-stack development (also a stated deal-breaker - see career goals below)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior/Staff SDE roles in backend and distributed systems; ML/GenAI platform engineering
+**Moderate:** Applied Scientist (engineering-heavy) roles; technical lead roles
+**Entry-level:** N/A (7 YOE - not targeting entry-level roles)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,8 +91,9 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
+- Fully remote (US), or hybrid/on-site within ~50 miles of Brea, CA: PASS
+- Requires 5 days/week in-office: FAIL (deal-breaker)
+- On-site/hybrid role requiring a location more than ~50 miles from Brea, CA: FAIL (deal-breaker)
 - Requires relocation: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 
@@ -107,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Continue as a Senior Software Engineer / ML Platform Engineer in high-scale distributed systems and GenAI
+- Move toward technical leadership (Staff Engineer / Tech Lead) within roughly 5 years
+- Avoid drifting into frontend/full-stack-heavy roles
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Building GenAI-powered products, high-scale distributed systems, mentoring/technical leadership
+- Tasks that drain: Frontend/full-stack-heavy work
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Targeting total compensation above $250,000
+- **Flexibility**: Remote, or hybrid/on-site within ~50 miles of Brea, CA; no 5-day/week in-office requirement
+- **Professional development**: Growing toward technical leadership (Staff Engineer / Tech Lead) over the next ~5 years
 
 ### 6. Salary Benchmark (Optional)
 
