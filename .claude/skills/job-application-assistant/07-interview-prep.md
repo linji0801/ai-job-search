@@ -16,26 +16,69 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+## STAR Candidates (Complete Manually)
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+*[Extracted from CV/LinkedIn by /setup Path A - stubs only, fill in S/T/A/R details before using in an interview]*
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Alexa+ Context Loader / LLM customer summarization
+**Source:** CV/LinkedIn - Amazon, APMLE team
+**What happened:** Owned end-to-end lifecycle of the Context Loader service, a key component of Proactive Agent for Alexa+ serving 4M+ customers; integrated LLM-based customer summarization, cutting I/O cost 60% via prompt/token optimization.
+**Why it matters:** Ownership of a customer-facing GenAI feature, cross-functional collaboration with product/science teams, cost optimization
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Redis cache layer - 2x latency reduction
+**Source:** CV - Amazon, APMLE team (Content Level Ranker service)
+**What happened:** Introduced a Redis cache layer and optimized cache query functions, reducing API latency by 2x under 1B+ daily requests.
+**Why it matters:** Performance optimization at scale, systems/backend design questions
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Cross-region migration of 20+ production pipelines
+**Source:** CV - Amazon, APMLE team
+**What happened:** Led cross-region migration of 20+ production pipelines with multiple platform teams, achieving zero-downtime transition and 30% EU IMR cost reduction.
+**Why it matters:** Large-scale migration leadership, cross-team coordination, reliability under zero-downtime constraints
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Automated Fee Rate Setup System
+**Source:** CV/LinkedIn - Amazon, F3 MARS team
+**What happened:** Designed and implemented an automated fee configuration system using API Gateway, Lambda, and DynamoDB, cutting setup time cost by 90%.
+**Why it matters:** End-to-end system design, measurable efficiency impact, serverless architecture
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### GDPR/CCPA privacy compliance system
+**Source:** CV - Amazon, F3 MARS team
+**What happened:** Led a privacy compliance system for a distributed data lake, implementing data minimization, retention policies, and automated deletion workflows to meet GDPR/CCPA.
+**Why it matters:** Regulatory/compliance-driven engineering, ownership of a cross-pipeline initiative
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Smart Breaker System fault prediction (SVM)
+**Source:** CV/LinkedIn - Schneider Electric R&D internship
+**What happened:** Built a mechanism using a Support Vector Machine algorithm to assess mechanical condition and predict faults for circuit breakers, improving system efficiency by 30%.
+**Why it matters:** Early-career ML application, embedded/PLC systems, useful for "tell me about a project outside your main job history" questions
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
