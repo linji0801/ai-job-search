@@ -82,6 +82,13 @@ documents/postings/**
 # in documents/applications/<company>_<role>/, covered above. Kept because
 # tools/security_guards.py pins it in REQUIRED_IGNORE_RULES.
 documents/interview/**
+documents/photos/**
+# Loose personal files at the documents/ root (exported cards, headshots,
+# ad-hoc PDFs/images) - the subfolder rules above don't cover root-level files.
+documents/*.pdf
+documents/*.jpg
+documents/*.jpeg
+documents/*.png
 !documents/**/.gitkeep
 
 # Personal job search tracking
