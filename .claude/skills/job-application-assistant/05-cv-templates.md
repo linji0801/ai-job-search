@@ -75,7 +75,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \address{451 Pointe Drive, Brea, CA, 92821}{}{}
 \phone[mobile]{(847) 910-3524}
 \email{linji0801@gmail.com}
-\extrainfo{\href{https://www.linkedin.com/in/jilin2019}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\extrainfo{\href{https://www.linkedin.com/in/jilin2019}{LinkedIn}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,11 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Senior Software Engineer / Backend & Distributed Systems roles:**
+> Senior Software Engineer with 7 years of experience at Amazon building large-scale distributed systems, cloud-native backend services, and data infrastructure on AWS. Owns the full lifecycle of production systems from design through deployment, with a track record of measurable performance and cost improvements at scale (2x latency reduction on a 1B+ request/day service, 99.99% uptime for a 4M+ user personalization pipeline), and enjoys mentoring engineers and driving system reliability.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For GenAI / ML Platform Engineer roles:**
+> Software Engineer with 7 years at Amazon building the backend and data infrastructure behind GenAI-powered features, most recently owning the end-to-end lifecycle of an LLM-based customer summarization service serving 4M+ Alexa+ users. Brings hands-on production experience with prompt design, token/cost optimization, near-real-time data pipelines, and large-scale AWS infrastructure (Lambda, SNS, ElastiCache, DynamoDB), and is looking to deepen focus on GenAI/ML platform engineering.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

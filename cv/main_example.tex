@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Ji (David) Lin
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -40,7 +40,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Ji (David) Lin - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -48,15 +48,16 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
+\name{Ji (David)}{Lin}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\address{451 Pointe Drive, Brea, CA, 92821}{}{}
+\phone[mobile]{(847) 910-3524}
+\email{linji0801@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/jilin2019}{LinkedIn}}
 
 \begin{document}
 
@@ -67,7 +68,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior Software Engineer with 7 years of experience at Amazon building large-scale distributed systems, cloud-native backend services, and GenAI/LLM-powered features. Owns the full lifecycle of production systems from design through deployment, with a track record of measurable performance and cost improvements at scale, and enjoys mentoring engineers and driving system reliability.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -77,15 +78,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend \& Distributed Systems}: Designed and operated large-scale distributed services on AWS (Lambda, SNS, DynamoDB, ElastiCache) serving 4M+ users with 99.99\% uptime.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{GenAI / LLM Engineering}: Integrated LLM-based customer summarization into production, optimizing prompt design and token utilization for a 60\% I/O cost reduction.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data \& Big Data Pipelines}: Built cloud-based data lakes and near real-time ingestion pipelines using EMR, S3, Glue, Kinesis, and SQS.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Performance Optimization}: Introduced Redis caching layers, cutting API latency 2x for a service handling 1B+ daily requests.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Languages \& Tools}: Python, Java, TypeScript, Go, C\#, C++, PostgreSQL, DynamoDB, Redshift, ElasticSearch, Docker, CI/CD.
 
 \end{itemize}
 
@@ -98,31 +99,34 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024-Present}{Software Development Engineer, APMLE Team}{Amazon}{Irvine, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Owned the end-to-end lifecycle of the Context Loader service, the key component of Proactive Agent for Alexa+ serving 4M+ customers, integrating LLM-based customer summarization and optimizing prompt design and token utilization (60\% reduction in I/O cost)}
+    \item {Architected and launched a near real-time data ingestion framework using SNS, Lambda, and ElastiCache to support low-latency personalization for 4M+ Alexa+ users with 99.99\% uptime}
+    \item {Introduced a Redis cache layer and optimized cache query functions for the Content Level Ranker service, reducing API latency by 2x with 1B+ daily requests}
+    \item {Led cross-region migration of 20+ production pipelines, achieving zero-downtime transition and 30\% EU IMR cost reduction}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2019-2024}{Software Development Engineer, F3 MARS Team}{Amazon}{Santa Monica, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Designed and implemented the automated Fee Rate Setup System using API Gateway, Lambda, and DynamoDB, cutting fee configuration time cost by 90\%}
+    \item {Led a Privacy Compliance system for a distributed data lake, implementing data minimization, retention policies, and automated deletion workflows to meet GDPR/CCPA requirements}
+    \item {Built a cloud-based data lake (EMR, S3, Glue) and a near real-time ingestion pipeline (SQS, Lambda, Kinesis) enabling flexible, hourly-cadence seller-facing reporting}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2018}{Software Developer Intern}{Schneider Electric (R\&D)}{Shanghai, China}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item {Built a Support Vector Machine (SVM)-based mechanism to assess mechanical condition and predict circuit breaker faults, improving Smart Breaker System efficiency by 30\%}
+    \item {Designed a small application on a Programmable Logic Controller (PLC) to collect near real-time signals from the Smart Breaker System}
 \end{itemize}}}
 
 \end{itemize}
@@ -135,14 +139,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2017-2019}{M.S. in Electrical Engineering and Computer Science}{Northwestern University}{Evanston, IL}{}{\vspace{1pt}
+GPA: 3.7/4.0
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2013-2017}{B.S. in Electrical Engineering}{Northeastern University (CN)}{Shenyang, China}{}{\vspace{1pt}
+GPA: 3.77/4.0
 }}
 
 \end{itemize}
@@ -154,7 +158,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
+\item {Chinese (Mandarin) (native or bilingual), English (professional working proficiency).}
 \end{itemize}
 
 % ============================================================
@@ -164,7 +168,8 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
+\item {EEG-based Mental Fatigue Assessment during Driving by Using Sample Entropy and Rhythm Energy}
+\item {A Comparative Study on Sign Recognition Using sEMG and Inertial Sensors}
 \end{itemize}
 
 % ============================================================
@@ -174,7 +179,9 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{National Scholarship} (2013-2014).}
+\item{\textbf{Xianggang Yucai Scholarship} (2015).}
+\item{\textbf{Third Prize, Mathematical Contest in Modeling}.}
 \end{itemize}
 
 % ============================================================

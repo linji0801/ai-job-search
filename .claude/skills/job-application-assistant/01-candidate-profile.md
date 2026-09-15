@@ -13,9 +13,9 @@ framework_version: 1.1.1
 - **Phone:** (847) 910-3524
 - **Email:** linji0801@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/jilin2019
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **GitHub:** (none)
+- **Status:** Employed (Amazon), actively looking
+- **Constraints:** Remote, or on-site/hybrid within ~50 miles of Brea, CA; no 5-day/week in-office requirement
 
 ### Languages
 <!-- Every language you can work in professionally, with your honest level. Used by the
